@@ -1,0 +1,385 @@
+
+
+
+
+
+
+html {
+    scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */ 
+  }
+
+.linkfreepik{
+color: #ffffff17;
+text-decoration: none;
+
+}
+  * {
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
+  
+  
+  }
+
+   
+
+  body {
+    margin: 0;
+   
+    
+}
+
+              .header-img {
+
+              background-image: url(./images/headph.jpeg);
+
+              height: 100vh;
+
+              background-repeat: no-repeat;
+              background-size: cover;
+
+              }
+
+
+
+
+
+              .card-desc {
+
+                font-family: 'Belanosima', sans-serif;
+              text-align: center;
+              padding-top: 875px;
+              }
+
+              .nav-item {
+              align-items: center;
+              align-content: center;
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 14px;
+                margin-right: 45px;
+                padding-right: 30px;
+                text-align: center;
+                transition: color 0.3s linear;
+                }
+                
+                .nav-item:hover {
+                    color: #fccfcf;
+                }
+                .nav {
+              align-items: center;
+              font-size: 14px;
+                margin-right: -95px;
+               
+                text-align: center;
+              padding-top: 25px;
+                  
+                }
+              
+                .container {
+
+                  margin: 0px 166px;
+                  
+                  }
+
+                .button{
+
+                  padding-top: 0px;
+                  padding-right: 0px;
+                  margin: 35px 117px;
+
+                }
+                  .btn {
+              
+                  padding: 10px 5px;
+                  border-radius: 9px;
+                  font-weight: 400;
+                  font-size: 14px;
+
+                  color: #FFFFFF;
+                  background-color: rgb(0, 0, 0);
+                  text-align: center;
+                  box-sizing: border-box;
+                  font-family: 'Belanosima', sans-serif;
+                  transition: background-color 0.2s linear;
+                  text-decoration: none;
+                    
+                }
+                .btn:hover {
+                
+                    background-color: rgba(167, 167, 167, 0.404);
+                
+                }
+                .btn-text{
+                  padding: 18px 100px;
+                  text-decoration: none;
+                  color: #ffffffd3;
+                  transition: background-color 0.2s linear;
+                }
+
+
+               
+
+
+
+              .btn-textfreepik{
+                color: #ffffff18;
+                text-decoration: none;
+              }
+
+
+
+              .button-header {
+
+                text-decoration: none;
+              }
+
+
+
+
+
+
+
+                .cards-header {
+              padding: 35px;
+           
+              margin-top: 70px;
+                  display: flex;
+                  justify-content: center;
+                  
+                  
+                  
+              }
+              .header-card {
+                  width: 500px;
+
+
+              background-color: rgb(122 122 122 / 40%);
+              margin-top: 15px;
+              margin: 0;
+              border-radius: 17px;
+
+
+
+
+              box-shadow: 10px 10px 40px 20px rgba(53, 70, 80, 0.459);
+              }
+              .card-title {
+                font-family: 'Tinos';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 26px;
+                line-height: 30px;
+                color: #ffffff;
+                display: flex;
+                justify-content: center;
+                margin: 20px;
+
+
+              }
+
+              .sub-card-title{
+
+                font-family: 'Tinos';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 30px;
+
+                color: #ffffff;
+                display: flex;
+                justify-content: center;
+              
+              margin: -15px;
+
+              }
+
+
+              .card-desc {
+                  font-family: 'Tinos';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 26px;
+                  line-height: 30px;
+                  text-align: center;
+                  padding: 10px 10px;
+                  color: #656363;
+                  
+
+                  display: flex;
+                  justify-content: center;
+
+              }
+
+
+              .card-image {
+                margin-left: 114px;
+                margin-right: 109px;
+                margin-top: 35px;
+                    display: flex;
+                    justify-content: center;
+                height: 300px;
+                
+                }
+
+
+
+
+
+                .button-price{
+
+                  padding-top: 0px;
+                  padding-right: 0px;
+                  margin: 35px 320px;
+
+                }
+
+
+                .btn-price{
+
+                  padding: 10px;
+                  border-radius: 9px;
+                  font-weight: 400;
+                  font-size: 14px;
+
+                  color: #FFFFFF;
+                  background-color: rgb(187, 64, 125);
+                  text-align: center;
+                  box-sizing: border-box;
+                  font-family: 'Belanosima', sans-serif;
+                  transition: background-color 0.2s linear;
+                  text-decoration: none;
+
+                }
+
+
+
+              .price{
+                width: 100px;
+          text-align: center;
+                background-color: #656363;
+              }
+
+              .portfolio-card-wrapper {
+             
+                padding-top: 40px;
+                padding-left: 350px;
+                padding-right: 305px;
+              
+              }
+
+
+              .cards-holder {
+
+    display: flex;
+    justify-content: center;
+}
+.card {
+  width: 848px;
+  margin: 51px;
+  margin-right: 31px;
+background-color:rgb(197 218 235 / 49%);
+
+border-radius: 30px;
+
+
+
+box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.568);
+}
+.card-title {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+
+margin: 20px;
+
+
+}
+
+
+.card-title-catalog{
+
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+
+  color: #000000;
+  display: flex;
+  justify-content: center;
+
+margin: 20px;
+
+}
+
+
+
+.card-desc {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px 10px;
+    color: #000000;
+    
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.cards-holder {
+
+padding-top: 50px;   
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center
+}
+
+.catalog{
+
+background-color: #f0f0f0;
+
+}
+
+
+.card-image-catalog{
+
+  margin-left: 114px;
+  margin-right: 109px;
+  margin-top: 35px;   
+  height: 600px;
+
+
+
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.card-img{
+
+border-radius: 20px;
+
+}
+
+
+.container2 {
+
+  margin: 0px 166px;
+  
+  }
